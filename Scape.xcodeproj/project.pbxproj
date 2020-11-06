@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,18 @@
 		29CDD1DC2554CACE00BD6D1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CDD1DB2554CACE00BD6D1B /* Preview Assets.xcassets */; };
 		29CDD1E72554CACE00BD6D1B /* ScapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD1E62554CACE00BD6D1B /* ScapeTests.swift */; };
 		29CDD1F22554CACE00BD6D1B /* ScapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD1F12554CACE00BD6D1B /* ScapeUITests.swift */; };
+		29CDD2042554CAEB00BD6D1B /* ScapeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 29CDD2032554CAEB00BD6D1B /* ScapeKit */; };
+		29CDD20A2554CB1400BD6D1B /* SUIObject in Frameworks */ = {isa = PBXBuildFile; productRef = 29CDD2092554CB1400BD6D1B /* SUIObject */; };
+		29CDD2102554CB8300BD6D1B /* FLite in Frameworks */ = {isa = PBXBuildFile; productRef = 29CDD20F2554CB8300BD6D1B /* FLite */; };
+		29CDD2152554F59700BD6D1B /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD2142554F59700BD6D1B /* SkillsView.swift */; };
+		29CDD2282554F6ED00BD6D1B /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD2272554F6ED00BD6D1B /* SkillView.swift */; };
+		29CDD2302554FA7300BD6D1B /* MusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD22F2554FA7300BD6D1B /* MusicListView.swift */; };
+		29CDD2352554FA8800BD6D1B /* QuestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD2342554FA8800BD6D1B /* QuestListView.swift */; };
+		29CDD24A2554FBB400BD6D1B /* QuestItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD2492554FBB400BD6D1B /* QuestItemView.swift */; };
+		29CDD2532554FF8000BD6D1B /* YouTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD2522554FF8000BD6D1B /* YouTubeView.swift */; };
+		29CDD25F2555003B00BD6D1B /* WebView in Frameworks */ = {isa = PBXBuildFile; productRef = 29CDD25E2555003B00BD6D1B /* WebView */; };
+		29CDD2672555042E00BD6D1B /* SkillGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD2662555042E00BD6D1B /* SkillGridView.swift */; };
+		29CDD26F255506F300BD6D1B /* SkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD26E255506F300BD6D1B /* SkillDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,14 @@
 		29CDD1ED2554CACE00BD6D1B /* ScapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CDD1F12554CACE00BD6D1B /* ScapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScapeUITests.swift; sourceTree = "<group>"; };
 		29CDD1F32554CACE00BD6D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CDD2142554F59700BD6D1B /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		29CDD2272554F6ED00BD6D1B /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		29CDD22F2554FA7300BD6D1B /* MusicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListView.swift; sourceTree = "<group>"; };
+		29CDD2342554FA8800BD6D1B /* QuestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestListView.swift; sourceTree = "<group>"; };
+		29CDD2492554FBB400BD6D1B /* QuestItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestItemView.swift; sourceTree = "<group>"; };
+		29CDD2522554FF8000BD6D1B /* YouTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeView.swift; sourceTree = "<group>"; };
+		29CDD2662555042E00BD6D1B /* SkillGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillGridView.swift; sourceTree = "<group>"; };
+		29CDD26E255506F300BD6D1B /* SkillDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CDD25F2555003B00BD6D1B /* WebView in Frameworks */,
+				29CDD2102554CB8300BD6D1B /* FLite in Frameworks */,
+				29CDD2042554CAEB00BD6D1B /* ScapeKit in Frameworks */,
+				29CDD20A2554CB1400BD6D1B /* SUIObject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +119,7 @@
 		29CDD1D32554CACD00BD6D1B /* Scape */ = {
 			isa = PBXGroup;
 			children = (
+				29CDD21C2554F60B00BD6D1B /* TabViews */,
 				29CDD1D42554CACD00BD6D1B /* ScapeApp.swift */,
 				29CDD1D62554CACD00BD6D1B /* ContentView.swift */,
 				29CDD1D82554CACE00BD6D1B /* Assets.xcassets */,
@@ -130,6 +155,69 @@
 			path = ScapeUITests;
 			sourceTree = "<group>";
 		};
+		29CDD21C2554F60B00BD6D1B /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD23F2554FB5F00BD6D1B /* Skills */,
+				29CDD2402554FB6D00BD6D1B /* Music */,
+				29CDD2442554FB7300BD6D1B /* Quest */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		29CDD2262554F67300BD6D1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD2272554F6ED00BD6D1B /* SkillView.swift */,
+				29CDD2662555042E00BD6D1B /* SkillGridView.swift */,
+				29CDD26E255506F300BD6D1B /* SkillDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29CDD23F2554FB5F00BD6D1B /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD2262554F67300BD6D1B /* Views */,
+				29CDD2142554F59700BD6D1B /* SkillsView.swift */,
+			);
+			path = Skills;
+			sourceTree = "<group>";
+		};
+		29CDD2402554FB6D00BD6D1B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD2512554FF7200BD6D1B /* Views */,
+				29CDD22F2554FA7300BD6D1B /* MusicListView.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		29CDD2442554FB7300BD6D1B /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD2482554FBA200BD6D1B /* Views */,
+				29CDD2342554FA8800BD6D1B /* QuestListView.swift */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
+		29CDD2482554FBA200BD6D1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD2492554FBB400BD6D1B /* QuestItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29CDD2512554FF7200BD6D1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD2522554FF8000BD6D1B /* YouTubeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +234,12 @@
 			dependencies = (
 			);
 			name = Scape;
+			packageProductDependencies = (
+				29CDD2032554CAEB00BD6D1B /* ScapeKit */,
+				29CDD2092554CB1400BD6D1B /* SUIObject */,
+				29CDD20F2554CB8300BD6D1B /* FLite */,
+				29CDD25E2555003B00BD6D1B /* WebView */,
+			);
 			productName = Scape;
 			productReference = 29CDD1D12554CACD00BD6D1B /* Scape.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +311,12 @@
 				Base,
 			);
 			mainGroup = 29CDD1C82554CACD00BD6D1B;
+			packageReferences = (
+				29CDD2022554CAEB00BD6D1B /* XCRemoteSwiftPackageReference "ScapeKit" */,
+				29CDD2082554CB1400BD6D1B /* XCRemoteSwiftPackageReference "SUIObject" */,
+				29CDD20E2554CB8300BD6D1B /* XCRemoteSwiftPackageReference "FLite" */,
+				29CDD25D2555003B00BD6D1B /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */,
+			);
 			productRefGroup = 29CDD1D22554CACD00BD6D1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +359,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CDD24A2554FBB400BD6D1B /* QuestItemView.swift in Sources */,
+				29CDD2282554F6ED00BD6D1B /* SkillView.swift in Sources */,
+				29CDD2672555042E00BD6D1B /* SkillGridView.swift in Sources */,
 				29CDD1D72554CACD00BD6D1B /* ContentView.swift in Sources */,
+				29CDD2302554FA7300BD6D1B /* MusicListView.swift in Sources */,
+				29CDD2532554FF8000BD6D1B /* YouTubeView.swift in Sources */,
 				29CDD1D52554CACD00BD6D1B /* ScapeApp.swift in Sources */,
+				29CDD26F255506F300BD6D1B /* SkillDetailView.swift in Sources */,
+				29CDD2152554F59700BD6D1B /* SkillsView.swift in Sources */,
+				29CDD2352554FA8800BD6D1B /* QuestListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +688,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29CDD2022554CAEB00BD6D1B /* XCRemoteSwiftPackageReference "ScapeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/ScapeKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		29CDD2082554CB1400BD6D1B /* XCRemoteSwiftPackageReference "SUIObject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/SUIObject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+		29CDD20E2554CB8300BD6D1B /* XCRemoteSwiftPackageReference "FLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/FLite";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		29CDD25D2555003B00BD6D1B /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kylehickinson/SwiftUI-WebView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29CDD2032554CAEB00BD6D1B /* ScapeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29CDD2022554CAEB00BD6D1B /* XCRemoteSwiftPackageReference "ScapeKit" */;
+			productName = ScapeKit;
+		};
+		29CDD2092554CB1400BD6D1B /* SUIObject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29CDD2082554CB1400BD6D1B /* XCRemoteSwiftPackageReference "SUIObject" */;
+			productName = SUIObject;
+		};
+		29CDD20F2554CB8300BD6D1B /* FLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29CDD20E2554CB8300BD6D1B /* XCRemoteSwiftPackageReference "FLite" */;
+			productName = FLite;
+		};
+		29CDD25E2555003B00BD6D1B /* WebView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29CDD25D2555003B00BD6D1B /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */;
+			productName = WebView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 29CDD1C92554CACD00BD6D1B /* Project object */;
 }

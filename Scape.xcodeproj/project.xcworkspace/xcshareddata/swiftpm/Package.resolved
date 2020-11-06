@@ -1,0 +1,133 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "async-kit",
+        "repositoryURL": "https://github.com/vapor/async-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "7457413e57dbfac762b32dd30c1caf2c55a02a3d",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "Combino",
+        "repositoryURL": "https://github.com/0xLeif/Combino",
+        "state": {
+          "branch": null,
+          "revision": "e43818cea25b307c537fb8f50205cbdaa762a5ce",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "E",
+        "repositoryURL": "https://github.com/0xLeif/E.num.git",
+        "state": {
+          "branch": null,
+          "revision": "635c4499a000ce4bfabde2fabb371401033de1d4",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "FLite",
+        "repositoryURL": "https://github.com/0xLeif/FLite",
+        "state": {
+          "branch": null,
+          "revision": "7e98b7db2bd4dcc1db38827fa0ad71618f1c74c5",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "fluent-kit",
+        "repositoryURL": "https://github.com/vapor/fluent-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "31d96b547cc1f869f2885d932a8a9a7ae2103fc6",
+          "version": "1.10.0"
+        }
+      },
+      {
+        "package": "fluent-sqlite-driver",
+        "repositoryURL": "https://github.com/vapor/fluent-sqlite-driver.git",
+        "state": {
+          "branch": null,
+          "revision": "6f29f6f182c812075f09c7575c18ac5535c26824",
+          "version": "4.0.1"
+        }
+      },
+      {
+        "package": "ScapeKit",
+        "repositoryURL": "https://github.com/0xLeif/ScapeKit",
+        "state": {
+          "branch": null,
+          "revision": "5a122ce742cf5898736262d18429f57bc949f9a3",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "sql-kit",
+        "repositoryURL": "https://github.com/vapor/sql-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "ea9928b7f4a801b175a00b982034d9c54ecb6167",
+          "version": "3.7.0"
+        }
+      },
+      {
+        "package": "sqlite-kit",
+        "repositoryURL": "https://github.com/vapor/sqlite-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "2ec279b9c845cec254646834b66338551a024561",
+          "version": "4.0.2"
+        }
+      },
+      {
+        "package": "sqlite-nio",
+        "repositoryURL": "https://github.com/vapor/sqlite-nio.git",
+        "state": {
+          "branch": null,
+          "revision": "6481dd0b01112d082dd7eb362782126e81964138",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "SUIObject",
+        "repositoryURL": "https://github.com/0xLeif/SUIObject",
+        "state": {
+          "branch": null,
+          "revision": "f7346eb071e197cfe36dc436ddee43db5776e4dd",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "173f567a2dfec11d74588eea82cecea555bdc0bc",
+          "version": "1.4.0"
+        }
+      },
+      {
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio.git",
+        "state": {
+          "branch": null,
+          "revision": "c3e2359c55cd8b47207ab7363b77c9c398a95294",
+          "version": "2.23.0"
+        }
+      },
+      {
+        "package": "WebView",
+        "repositoryURL": "https://github.com/kylehickinson/SwiftUI-WebView",
+        "state": {
+          "branch": null,
+          "revision": "ec4352095428a06423868b3b2a92fdaa3c6281f7",
+          "version": "0.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
